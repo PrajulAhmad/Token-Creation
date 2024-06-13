@@ -1,35 +1,33 @@
 # Token-Creation
 In this project I am creating my own token named as BREWIUM.
 
-# Hello World
-
-This Solidity program is a simple "Token Creation" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
+This Solidity program demonstrates function and mapping functionality of solidity programming language. The purpose of this program is to mint and burn the token. 
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
-
-## Getting Started
+This program is a simple contract written in Solidity used to mint and burn the BREWIUM token. This program serves as a simple and straightforward way to mint and burn the token with simple Solidity programming language syntax.
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+To run this program, we can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., TokenCreation.sol). Copy and paste the code into the file:
 
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.26" (or another compatible version), and then click on the "Compile TokenCreation.sol" button.
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "TokenCreation" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
+Once the contract is deployed, you can interact with it under Deployed/Unpinned Contracts section. Select the contract and click on tokenAbb, tokenName and totalSupply to see the token Abbrebiation, Name and Total supply of the token.
 
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
+Under mint section paste the account address and give the value for number of token. After that click on transact, and click on totalSupply to see number of tokens minted.
+Under burn section give the address and value for burning given number of tokens.After that click on transact, and click on totalSupply to see number of tokens burned.
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Prajul Ahmad  
+[@Coder](https://twitter.com/PrajulAhmad)
 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+None
